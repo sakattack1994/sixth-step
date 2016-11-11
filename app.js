@@ -8,7 +8,7 @@ var mongoose = require('mongoose');
 var config = require('./config');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
-
+// POLLES ALLAGEEEEEEEEEEEEEES
 mongoose.connect(config.mongoUrl);
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
