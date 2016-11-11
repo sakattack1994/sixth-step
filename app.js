@@ -9,6 +9,7 @@ var config = require('./config');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 // POLLES ALLAGEEEEEEEEEEEEEES gia to neo bramchaki
+// POLLES ALLAGEEEEEEEEEEEEEES gia to neo bramchaki
 mongoose.connect(config.mongoUrl);
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
